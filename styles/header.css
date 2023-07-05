@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px 31.6px 65px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}

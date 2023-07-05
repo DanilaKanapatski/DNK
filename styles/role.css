@@ -14,6 +14,7 @@
 }
 
 .role-content__text {
+    position: relative;
     color: #272727;
     font-size: 16px;
     font-weight: 400;
@@ -24,10 +25,45 @@
     gap: 80px;
 }
 
+.role-content__text-mini {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: -5%;
+}
+
+.role-content__text-big {
+    position: absolute;
+    right: -20%;
+    top: -50%;
+    z-index: -1;
+}
+
 .role-content__text-1 {
-    max-width: 529px;
+    max-width: 510px;
 }
 
 .role-content__text-2 {
-    max-width: 382px;
+    max-width: 428px;
+   padding-left: 66px; 
 }
+
+.role-content__text-wrapper {
+    position: relative;
+    padding: 65px 0 52px 66px;
+}
+
+.role-content__text-wrapper ::before {
+    position: absolute;
+    content: url(/DNK/images/icons/kav.svg);
+    top: 26px;
+    left: 0;
+}
+
+.role-content__text-wrapper ::after {
+    position: absolute;
+    content: url(/DNK/images/icons/kav.svg);
+    bottom: 0;
+    right: 0;
+}
+

@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/advantages.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/role.css">
     <link rel="stylesheet" href="styles/events.css">
     <link rel="stylesheet" href="styles/partners.css">
@@ -39,70 +43,78 @@
         </div>
         <ul class="advantages-list">
             <li class="advantages-list__item">
-                <h3>
+                <img class="advantages-list__item-img" src="images/icons/advantages-1.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Укомплектованный тренерский состав
                 </h3>
-                <p>
+                <p class="advantages-list__item-text">
                     Специалисты с лицензиями UEFA,
                     международным опытом, игровой карьерой
                 </p>
             </li>
             <li class="advantages-list__item">
-                <h3>
+                <img src="images/icons/advantages-2.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Ценим каждого ребёнка
                 </h3>
-                <p>
+                <p class="advantages-list__item-text">
                     У нас играют и развиваются все, поэтому скамейка запасных самая счастливая
                 </p>
             </li>
             <li class="advantages-list__item">
-                <h3>
+                <img src="images/icons/advantages-3.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Профессиональный менеджмент
                 </h3>
-                <p>
+                <p class="advantages-list__item-text">
                     Cовременные принципы работы,
                     уникальная для Беларуси инфраструктуру
                 </p>
             </li>
             <li class="advantages-list__item">
-                <h3>
+                <img src="images/icons/advantages-4.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Качественная инфраструктура
                 </h3>
-                <p>
+                <p class="advantages-list__item-text">
                     Своё поле и инвентарь мировых стандартов профессиональной подготовки
                 </p>
             </li>
             <li class="advantages-list__item">
-                <h3>
+                <img src="images/icons/advantages-5.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Всегда готовы
                     к сотрудничеству
                 </h3>
-                <p>
+                <p class="advantages-list__item-text">
                     С нами международные и республиканские организации, проф. и любительские клубы, блогеры
                 </p>
             </li>
             <li class="advantages-list__item">
-                <h3>
+                <img src="images/icons/advantages-6.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Безопасный
                     тренировочный процесс
                 </h3>
-                <p>
+                <p class="advantages-list__item-text">
                     Современные международные подходы
                     к физическим нагрузкам в зависимости
                     от возраста
                 </p>
             </li>
             <li class="advantages-list__item">
-                <h3>
+                <img src="images/icons/advantages-7.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Удовольствие
                     от процесса
                 </h3>
-                <p>
+                <p class="advantages-list__item-text">
                     Cоздаём, вдохновляем, поддерживаем – у нас все получают удовольствие от процесса
                 </p>
             </li>
             <li class="advantages-list__item">
-                <h3>
+                <img src="images/icons/advantages-8.svg" alt="">
+                <h3 class="advantages-list__item-title">
                     Мы любим то, что мы делаем
                 </h3>
             </li>
@@ -115,14 +127,14 @@
             <h2 class="about-title title">ДНК Нации</h2>
         </div>
         <div class="about-wrapper">
-            <div>
-                <p class="about-text">
+            <div class="about-text">
+                <p>
                     Мы хотим, чтобы в Беларуси была качественная база физкультурного обучения для самых маленьких, для
                     подростков и взрослых, для начинающих и профессионалов.
                     Физическая культура – как способ формирования характера, здоровья, ума, взаимодействия и реализации
                     себя
                 </p>
-                <p class="about-text about-m">Как ДНК человека, которая способна брать лучшее от многих поколений, чтобы
+                <p>Как ДНК человека, которая способна брать лучшее от многих поколений, чтобы
                     ее обладатель мог
                     самосовершенствоваться и развиваться,
                     так мы хотим вобрать весь мировой опыт и культивировать белорусскую школу спортивной культуры как
@@ -130,7 +142,7 @@
                     базы,
                     что сопровождает человека на протяжении всей жизни.
                 </p>
-                <p class="about-text about-m"> Футбол, шахматы – это только начало.
+                <p> Футбол, шахматы – это только начало.
                     <br>Мы хотим развиваться вместе с вами и дальше
                 </p>
             </div>
@@ -142,18 +154,60 @@
             <h2 class="title">Наши проекты</h2>
         </div>
         <div class="projects-wrapper">
-            <img class="projects-text__star" src="images/icons/big-star.svg" alt="">
-            <div class="projects-text">
-
-                <h2 class="projects-text__title">академия pro днк</h2>
-                <p class="projects-text__desc text">Учимся не просто играть. Учимся мыслить, просчитывать
-                    варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.</p>
-                <p class="text">Шахматы – это модель жизни.</p>
-                <a class="projects-text__link link" href="#">Подробнее</a>
+            <div class="projects-description__block-1">
+                <img class="projects-text__star" src="images/icons/big-star.svg" alt="">
+                <div class="projects-text">
+                    <h2 class="projects-text__title">академия pro днк</h2>
+                    <p class="projects-text__desc text">Учимся не просто играть. Учимся мыслить, просчитывать
+                        варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.</p>
+                    <p class="text">Шахматы – это модель жизни.</p>
+                    <a class="projects-text__link link" href="#">Подробнее</a>
+                </div>
+                <div class="projects-images">
+                    <img src="images/projects-1.jpg" alt="">
+                    <img class="projects-2" src="images/projects-2.jpg" alt="">
+                </div>
             </div>
-            <div class="projects-images">
-                <img class="projects-1" src="images/projects-1.jpg" alt="">
-                <img class="projects-2" src="images/projects-2.jpg" alt="">
+            <div class="projects-description__block-2">
+                <div class="projects-images">
+                    <img src="images/projects-3.jpg" alt="">
+                    <img class="projects-1" src="images/projects-4.jpg" alt="">
+                </div>
+                <div class="projects-text">
+                    <h2 class="projects-text__title">сан-серова</h2>
+                    <p class="projects-text__desc text">Учимся не просто играть. Учимся мыслить, просчитывать
+                        варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.</p>
+                    <p class="text">Шахматы – это модель жизни.</p>
+                    <a class="projects-text__link link" href="#">Подробнее</a>
+                </div>
+            </div>
+            <div class="projects-description__block-1">
+                <img class="projects-text__star" src="images/icons/big-star.svg" alt="">
+                <div class="projects-text">
+                    <h2 class="projects-text__title">днк
+                        единорога</h2>
+                    <p class="projects-text__desc text">Учимся не просто играть. Учимся мыслить, просчитывать
+                        варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.</p>
+                    <p class="text">Шахматы – это модель жизни.</p>
+                    <a class="projects-text__link link" href="#">Подробнее</a>
+                </div>
+                <div class="projects-images">
+                    <img src="images/projects-5.jpg" alt="">
+                    <img class="projects-2" src="images/projects-6.jpg" alt="">
+                </div>
+            </div>
+            <div class="projects-description__block-2">
+                <div class="projects-images">
+                    <img src="images/projects-7.jpg" alt="">
+                    <img class="projects-1" src="images/projects-8.jpg" alt="">
+                </div>
+                <div class="projects-text">
+                    <h2 class="projects-text__title">Футбол IN</h2>
+                    <p class="projects-text__desc text">Учимся не просто играть. Учимся мыслить, просчитывать
+                        варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.</p>
+                    <p class="text">Шахматы – это модель жизни.</p>
+                    <a class="projects-text__link link" href="#">Подробнее</a>
+                </div>
             </div>
         </div>
     </section>
@@ -164,12 +218,17 @@
         <div class="role-content">
             <img src="images/role.png" alt="">
             <div class="role-content__text">
-                <p class="role-content__text-1">Футбол формирует характер, учит самоконтролю, закаляет, помогает в
-                    общении, дружбе, учит выигрывать, проигрывать и потом с достоинством принимать поражения, вставать и
-                    идти дальше к новым победам. </p>
-                <p class="role-content__text-2"><span>Кубарев Олег Михайлович</span><br>
+                <img class="role-content__text-big" src="images/icons/big-star.svg" alt="">
+                <div class="role-content__text-wrapper">
+                    <p class="role-content__text-1">Футбол формирует характер, учит самоконтролю, закаляет, помогает в
+                        общении, дружбе, учит выигрывать, проигрывать и потом с достоинством принимать поражения,
+                        вставать и
+                        идти дальше к новым победам. </p>
+                </div>
+                <p class="role-content__text-2">Кубарев Олег Михайлович<br>
                     Технический директор Академии ДНК Нации, тренерская лицензия PRO UEFA
                 </p>
+                <img class="role-content__text-mini" src="images/icons/mini-star.svg" alt="">
             </div>
         </div>
     </section>
