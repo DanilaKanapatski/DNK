@@ -1,4 +1,4 @@
-.header {
+.header-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,4 +9,15 @@
     display: flex;
     justify-content: space-between;
     gap: 48px;
+}
+
+.header-list a {
+    color: #272727;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    cursor: pointer;
 }

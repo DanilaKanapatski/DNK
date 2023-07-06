@@ -7,6 +7,7 @@
     margin-top: 105px;
     display: flex;
     gap: 25px 148px;
+    justify-content: space-between;
     padding: 0 135px 0 157px;
     flex-wrap: wrap;
     align-items: baseline;
