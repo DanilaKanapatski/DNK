@@ -1,0 +1,44 @@
+.branches {
+    margin-top: 271px;
+}
+
+.branches-wrapper {
+    margin-top: 90px;
+    padding: 0 110px 0 93px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    display: block;
+}
+
+.branches-text {
+    display: flex;
+    gap: 126px;
+    color: #272727;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+
+.branches-text-1 {
+    max-width: 202px;
+}
+
+.branches-text-2 {
+    max-width: 210px;
+}
+
+.branches-desc {
+    margin-top: 68px;
+    text-align: center;
+}
+
+.branches-form {
+    margin-top: 42px;
+}
+
+.branches-btn {
+    margin: 27px auto 103px;
+}

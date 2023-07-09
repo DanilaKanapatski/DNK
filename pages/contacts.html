@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/contacts.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/contactsPage.css">
+    <link rel="stylesheet" href="../styles/footer.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
-        <img src="images/header-logo.png" alt="logo">
-        <nav>
-            <ul class="header-list">
-                <li><a href="index.html">О нас</a></li>
-                <li><a href="acadimia.html">Академия</a></li>
-                <li>Проекты</li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </nav>
-        <a href="tel:+375296167676">+375 29 616 76 76</a>
-        <a href="https://www.instagram.com/danila.knptski/"><img src="images/icons/inst.svg" alt="instagram"></a>
+        <div class="header-wrapper">
+            <img src="../images/header-logo.png" alt="logo">
+            <nav>
+                <ul class="header-list">
+                    <li><a href="index.html">О нас</a></li>
+                    <li><a href="acadimia.html">Академия</a></li>
+                    <li>Проекты</li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+375296167676">+375 29 616 76 76</a>
+            <a href="https://www.instagram.com/danila.knptski/"><img src="../images/icons/inst.svg" alt="instagram"></a>
+        </div>
     </header>
-    <section class="contacts">
-        <img class="contacts-big" src="images/icons/big-star.svg" alt="">
+    <section class="contactsPage">
+        <!-- <img class="contacts-big" src="../images/icons/big-star.svg" alt=""> -->
         <div class="title-wrapper">
-            <h2 class="contacts-title title">Контакты</h2>
+            <h2 class="contacts-title title">Реквизиты</h2>
         </div>
         <div class="contacts-wrapper">
             <div class="contacts-content">
                 <p>ООО «ДНК Нации»</p>
 
-                <p>
-                    УНП 193543702
-                    220005, г.Минск, пр-т Независимости 35-3
-                </p>
-
-                <p>
-                    +375 29 616-76-76
-                    +375 29 521-76-76
-                    +375 17 393-68-11
-                </p>
-
+                <div>
+                    <p>УНП 193543702</p>
+                    <p>220005, г.Минск, пр-т Независимости 35-3</p>
+                </div>
+                <div>
+                    <p>+375 29 616-76-76</p>
+                    <p>+375 29 521-76-76</p>
+                    <p>+375 17 393-68-11</p>
+                </div>
                 <p>dnknation.by@gmail.com</p>
-                <a class="contacts-content__link link" href="#">Подробнее</a>
             </div>
 
             <iframe
                 src="https://yandex.ru/map-widget/v1/?um=constructor%3A367e653623deb127f77fef96b96131113038ef31e78b0b1a073032bc90ac327a&amp;source=constructor"
                 width="500" height="500" frameborder="0"></iframe>
         </div>
-        <img class="contacts-mini" src="images/icons/mini-star.svg" alt="">
+        <div class="title-wrapper">
+            <h2 class="contacts-title title">Наши филиалы</h2>
+        </div>
     </section>
     <footer class="footer">
         <div class="footer-wrapper">
-            <img src="images/icons/footer.svg" alt="">
+            <img src="../images/icons/footer.svg" alt="">
             <ul class="footer-list">
                 <li class="footer-list__item">
                     <p>О нас</p>
@@ -79,9 +82,10 @@
                 </li>
             </ul>
         </div>
-        <a class="footer-img" href="https://www.instagram.com/danila.knptski/"><img src="images/icons/inst.svg"
+        <a class="footer-img" href="https://www.instagram.com/danila.knptski/"><img src="../images/icons/inst.svg"
                 alt="instagram"></a>
         <h3 class="footer-text">ДНК Нации 2023</h3>
     </footer>
 </body>
+
 </html>
