@@ -34,3 +34,42 @@
     padding-bottom: 53px;
     margin-top: 100px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+    .footer-wrapper {
+        display: flex;
+        padding: 30px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    
+    .footer-list {
+        margin-top: 0;
+        color: #FFF;
+        line-height: 26px;
+        font-size: 12px;
+        text-align: left;
+        display: flex;
+        gap: 40px;
+    }
+    
+    .footer-img {
+        margin-top: 0;
+        margin-right: 0;
+        display: block;
+        text-align: center;
+    }
+    
+    .footer-text {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+}

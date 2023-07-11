@@ -1,0 +1,237 @@
+.projects {
+    margin-top: 28px;
+    position: relative;
+}
+
+.projects-wrapper {
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+}
+
+.projects-description__block-1 {
+    display: flex;
+    gap: 40px;
+    padding: 0 80px 0 282px;
+}
+
+.projects-description__block-2 {
+    display: flex;
+    gap: 99px;
+    padding: 0 163px 0 278px;
+}
+
+.projects-images {
+    position: relative;
+    margin-top: 52px;
+}
+
+.projects-2 {
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    z-index: 100;
+}
+
+.projects-1 {
+    position: absolute;
+    left: -40%;
+    top: 15%;
+    z-index: 100;
+}
+
+.projects-text {
+    position: relative;
+    padding-top: 160px;
+    max-width: 460px;
+}
+
+.projects-text__desc {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.projects-text__link {
+    display: block;
+    margin-top: 74px;
+}
+
+.projects-text__star {
+    position: absolute;
+    left: 80px;
+}
+
+.projects-text__title {
+    color: #FE5000;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .projects {
+        margin-top: 50px;
+        position: relative;
+    }
+    
+    .projects-wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    
+    .projects-description__block-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        padding: 0;
+    }
+    
+    .projects-description__block-2 {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .projects-images {
+        position: relative;
+        margin-top: 30px;
+    }
+    
+    .projects-2 {
+        position: relative;
+        left: 0;
+        top: 0;
+        z-index: 100;
+    }
+    
+    .projects-1 {
+        position: relative;;
+        left: 0;
+        top: 0;
+        z-index: 100;
+    }
+    
+    .projects-text {
+        position: relative;
+        padding-top: 10px;
+        max-width: 460px;
+    }
+    
+    .projects-text__desc {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .projects-text__link {
+        display: block;
+        margin-top: 50px;
+    }
+    
+    .projects-text__star {
+        position: absolute;
+        left: 80px;
+    }
+    
+    .projects-text__title {
+        color: #FE5000;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1359px) {
+    .projects {
+        margin-top: 70px;
+        position: relative;
+    }
+    
+    .projects-wrapper {
+        max-width: 1359px;
+        margin-top: 51px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 98px;
+    }
+    
+    .projects-description__block-1 {
+        display: flex;
+        gap: 20px;
+        padding: 0 50px 0 50px;
+    }
+    
+    .projects-description__block-2 {
+        display: flex;
+        gap: 59px;
+        padding: 0 133px 0 128px;
+    }
+    
+    .projects-images {
+        position: relative;
+        margin-top: 52px;
+    }
+    
+    .projects-2 {
+        position: absolute;
+        left: 37%;
+        top: 15%;
+        z-index: 100;
+    }
+    
+    .projects-1 {
+        position: absolute;
+        left: -30%;
+        top: 15%;
+        z-index: 100;
+    }
+    
+    .projects-text {
+        position: relative;
+        padding-top: 100px;
+        max-width: 460px;
+    }
+    
+    .projects-text__desc {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .projects-text__link {
+        display: block;
+        margin-top: 74px;
+    }
+    
+    .projects-text__star {
+        position: absolute;
+        left: 80px;
+    }
+    
+    .projects-text__title {
+        color: #FE5000;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+    }
+}

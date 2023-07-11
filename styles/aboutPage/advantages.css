@@ -1,0 +1,117 @@
+.advantages {
+    margin-top: 100px;
+}
+
+.advantages-list {
+    margin-top: 90px;
+    gap: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 37px;
+}
+
+.advantages-list__item {
+    max-width: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.advantages-list__item-title {
+    max-width: 240px;
+    color: #494B4C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.advantages-list__item-text {
+    color: #494B4C;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .advantages {
+        margin-top: 50px;
+    }
+    
+    .advantages-list {
+        margin-top: 50px;
+        gap: 40px 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        padding: 0 30px;
+    }
+    
+    .advantages-list__item {
+        max-width: 290px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .advantages-list__item-title {
+        max-width: 240px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    .advantages-list__item-text {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1359px) {
+
+    .advantages {
+        margin-top: 70px;
+    }
+    
+    .advantages-list {
+        margin-top: 70px;
+        gap: 40px 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        padding: 0 30px;
+    }
+    
+    .advantages-list__item {
+        max-width: 290px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .advantages-list__item-title {
+        max-width: 240px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    .advantages-list__item-text {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
