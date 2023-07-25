@@ -1,0 +1,66 @@
+.contacts {
+    position: relative;
+    margin-top: 44px;
+}
+
+/* .contacts-big {
+    position: absolute;
+    z-index: -1;
+    top: -264px;
+    right: 0px;
+} */
+/* 
+.contacts-mini {
+    position: absolute;
+    z-index: -1;
+    right: 470px;
+    bottom: 135px;
+} */
+
+.contacts-wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 0 110px 150px 0;
+    align-items: flex-end;
+}
+
+.contacts-requisites {
+    margin-top: 86px;
+    padding-left: 102px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #272727;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+
+.branches {
+    margin-top: 118px;
+}
+
+.contacts-branches {
+    padding-left: 116px; 
+    color: #272727;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    display: flex;
+    gap: 126px;
+    margin-top: 85px;
+}
+
+.contacts-branches h3 {
+    color: #272727;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+}
+
+.stadium {
+    margin-top: 25.5px;
+}
+
