@@ -14,19 +14,36 @@
 
 <body>
     <header class="header">
-        <div class="header-wrapper">
-            <img src="../images/header-logo.png" alt="logo">
-            <nav>
-                <ul class="header-list">
-                    <li><a href="../index.html">О нас</a></li>
-                    <li><a href="../pages/academy.html">Академия</a></li>
-                    <li>Проекты</li>
-                    <li><a href="news.html">Новости</a></li>
-                    <li><a href="../pages/contacts.html">Контакты</a></li>
-                </ul>
-            </nav>
-            <a class="tel" href="tel:+375296167676">+375 29 616 76 76</a>
-            <a href="https://www.instagram.com/danila.knptski/"><img src="../images/icons/inst.svg" alt="instagram"></a>
+        <div class="header__container">
+            <a class="header__logo" href="/DNK/pages/academy.html">
+                <img src="../images/header-logo.png" alt="header-logo">
+            </a>
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="../index.html">О нас</a></li>
+                        <li><a class="menu__link" href="/DNK/pages/academy.html">Академия</a></li>
+                        <li>
+                            <a class="menu__link" href="#">Проекты</a>
+                            <span class="menu__arrow"></span>
+                            <ul class="menu__sub-list">
+                                <li><a class="menu__sub-link" href="http://dnk-football.by/">Наше поле </a></li>
+                                <li><a class="menu__sub-link" href="http://dnk-nation.by/futbol-dla-vseh">Футбол для
+                                        всех</a></li>
+                                <li><a class="menu__sub-link" href="http://dnk-nation.by/footbolnyi-zabeg">Футбольный
+                                        забег </a></li>
+                                <li><a class="menu__sub-link" href="#">Рождественский турнир</a></li>
+                                <li><a class="menu__sub-link" href="https://dnk-chess.by/">Шахматы</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="menu__link" href="/DNK/pages/news.html">Новости</a></li>
+                        <li><a class="menu__link" href="/DNK/pages/contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <section class="news">
@@ -103,28 +120,38 @@
             <img src="../images/icons/footer.svg" alt="">
             <ul class="footer-list">
                 <li class="footer-list__item">
-                    <p>О нас</p>
-                    <p>Академия</p>
-                    <p>Новости</p>
-                    <p>Контакты</p>
+                    <p><a class="footer-list__item-link" href="../index.html">О нас</a></p>
+                    <p><a class="footer-list__item-link" href="../pages/academy.html">Академия</a></p>
+                    <p><a class="footer-list__item-link" href="../pages/news.html">Новости</a></p>
+                    <p><a class="footer-list__item-link" href="../pages/contacts.html">Контакты</a></p>
                 </li>
                 <li class="footer-list__item">
                     <p>Бренды</p>
-                    <p>Сан-Серова</p>
-                    <p>Шахматы</p>
-                    <p>ДНК-IN</p>
+                    <p><a class="footer-list__item-link" href="http://dnk-football.by/">Сан-Серова</a></p>
+                    <p><a class="footer-list__item-link" href="https://dnk-chess.by/">Шахматы</a></p>
+                    <p><a class="footer-list__item-link" href="#">ДНК-IN</a></p>
                 </li>
                 <li class="footer-list__item">
                     <p>Проекты</p>
-                    <p>Большой марафон</p>
-                    <p>Футбольный забег</p>
-                    <p>Рождественский турнир</p>
+                    <p><a class="footer-list__item-link" href="#">Большой марафон</a></p>
+                    <p><a class="footer-list__item-link" href="http://dnk-nation.by/footbolnyi-zabeg">Футбольный забег</a></p>
+                    <p><a class="footer-list__item-link" href="#">Рождественский турнир</a></p>
                 </li>
             </ul>
         </div>
-        <a class="footer-img" href="https://www.instagram.com/danila.knptski/"><img src="../images/icons/inst.svg"
-                alt="instagram"></a>
+        <div class="footer-links">
+            <a class="footer-img" href="https://www.instagram.com/dnk_football/"><img src="../images/icons/inst.svg"
+                    alt="instagram"></a>
+            <a class="footer-img" href="https://www.facebook.com/minskfsm/
+            "><img src="../images/icons/facebook.svg"
+                    alt="instagram"></a>
+            <a class="footer-img" href="https://m.vk.com/dnknation"><img src="../images/icons/vk.svg"
+                    alt="instagram"></a>
+            <a class="footer-img" href=" https://m.vk.com/dnknation"><img src="../images/icons/tiktok.svg"
+                    alt="instagram"></a>
+        </div>
         <h3 class="footer-text">ДНК Нации 2023</h3>
     </footer>
+    <script src="../js/header.js"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 .news {
-    margin-top: 54px;
+    margin-top: 110px;
 }
 
 .news-list {
     display: flex;
-    gap: 93px 40px;
+    gap: 93px 0px;
     padding: 0 92px 0 106px;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -53,13 +53,13 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
     .news {
-        margin-top: 50px;
+        margin-top: 110px;
     }
 
     .news-list {
         display: flex;
         gap: 40px 40px;
-        padding: 0 92px 0 106px;
+        padding: 0 30px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -110,13 +110,13 @@
 @media (min-width: 769px) and (max-width: 1359px) {
 
     .news {
-        margin-top: 54px;
+        margin-top: 110px;
     }
 
     .news-list {
         display: flex;
         gap: 93px 40px;
-        padding: 0 92px 0 106px;
+        padding: 0 50px;
         flex-wrap: wrap;
         justify-content: center;
     }
