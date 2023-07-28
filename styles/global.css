@@ -17,6 +17,14 @@ h6 {
     padding: 0;
 }
 
+.wrapper {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 .title {
     color: #FFF;
     font-size: 24px;
@@ -78,7 +86,7 @@ h6 {
     display: block;
 }
 
-@media (min-width: 320px) and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
     .title {
         color: #FFF;

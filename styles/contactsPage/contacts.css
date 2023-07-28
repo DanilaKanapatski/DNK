@@ -1,27 +1,22 @@
 .contacts {
     position: relative;
-    margin-top: 44px;
+    margin-top: 90px;
 }
 
-/* .contacts-big {
+.contacts-big {
     position: absolute;
-    z-index: -1;
-    top: -264px;
-    right: 0px;
-} */
-/* 
-.contacts-mini {
-    position: absolute;
-    z-index: -1;
-    right: 470px;
-    bottom: 135px;
-} */
+    z-index:-1;
+    top: 10%;
+    right: 1%;
+}
 
 .contacts-wrapper {
+    position: relative;
     display: flex;
     gap: 30px;
     padding: 0 110px 150px 0;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .contacts-requisites {
@@ -36,11 +31,18 @@
     letter-spacing: 0.8px;
 }
 
+.contacts-requisites__link {
+    text-decoration: none;
+    color: #272727;
+    cursor: pointer;
+}
+
 .branches {
     margin-top: 118px;
 }
 
 .contacts-branches {
+
     padding-left: 116px; 
     color: #272727;
     font-size: 14px;
@@ -48,7 +50,8 @@
     letter-spacing: 0.7px;
     line-height: 26px;
     display: flex;
-    gap: 126px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 85px;
 }
 
@@ -60,7 +63,96 @@
     margin-bottom: 30px;
 }
 
-.stadium {
+h3.stadium {
     margin-top: 25.5px;
+    margin-bottom: 0;
 }
 
+.map {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+}
+
+iframe {
+    height: 500px !important;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .contacts-wrapper {
+        display: block;
+    }
+
+    .contacts-requisites {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+.contacts-adress {
+    text-align: center;
+}
+
+    .branches {
+        margin-top: 30px;
+    }
+
+    .contacts-wrapper {
+        position: relative;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .contacts-branches {
+        padding-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        justify-content: space-around;
+        gap: 30px;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .contacts-branches h3 {
+        margin-bottom: 10px;
+    }
+
+    h3.stadium {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .contacts-branches__schools {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1359px) {
+    .contacts-branches {
+        gap: 30px;
+        padding-left: 50px;
+        
+    }
+
+    .contacts-wrapper {
+        padding: 0 50px 50px 0;
+        justify-content: space-between;
+    }
+
+    .map {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+    .map {
+        display: none;
+    }
+}
