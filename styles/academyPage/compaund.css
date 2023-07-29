@@ -1,4 +1,5 @@
 .compaund {
+    position: relative;
     margin-top: 55px;
     padding-bottom: 255px;
 }
@@ -6,17 +7,21 @@
 .compaund-list {
     margin-top: 103px;
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
+    padding: 0 30px;
+    justify-content: space-around;
 }
 
 .compaund-list__item {
-    max-width: 400px;
+    max-width: 320px;
+    text-align: center;
 }
 
 .compaund-list__item-title {
     margin-top: 22px;
     color: #272727;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 30px;
     letter-spacing: 0.6px;
@@ -24,7 +29,9 @@
 
 .compaund-list__item-desc {
     color: #272727;
-    font-size: 12px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.6px;
@@ -35,6 +42,120 @@
     margin-top: 85px;
 }
 
+.car {
+    color: #272727;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+
 .compaund-btn {
     margin: 28px auto 0;
+}
+
+
+.compaund-item__list {
+
+    text-align: left;
+    color: #272727;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+
+.compaund-item__list>li {
+    list-style: disc;
+    text-align: left;
+}
+
+.compaund-mini {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .compaund {
+        position: relative;
+        margin-top: 30px;
+        padding-bottom: 155px;
+    }
+    
+    .compaund-list {
+        margin-top: 30px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 0 30px;
+        justify-content: space-around;
+    }
+    
+    .compaund-list__item {
+        max-width: 320px;
+        text-align: center;
+    }
+    
+    .compaund-list__item-title {
+        margin-top: 22px;
+        color: #272727;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+    }
+    
+    .compaund-list__item-desc {
+        color: #272727;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+    }
+    
+    .compaund-desc {
+        text-align: center;
+        margin-top: 35px;
+    }
+    
+    .car {
+        color: #272727;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 10px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+    }
+    
+    .compaund-btn {
+        margin: 28px auto 0;
+    }
+    
+    
+    .compaund-item__list {
+    
+        text-align: left;
+        color: #272727;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+    }
+    
+    .compaund-item__list>li {
+        list-style: disc;
+        text-align: left;
+    }
+    
+    .compaund-mini {
+        position: absolute;
+        right: 10%;
+        bottom: 0;
+    }
 }

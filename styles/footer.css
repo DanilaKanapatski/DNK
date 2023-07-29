@@ -21,12 +21,13 @@
 }
 
 .footer-links {
-    margin-top: 25px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 109px;
+    padding: 0 30px;
     gap: 50px;
+    max-width: 1200px;
+    margin: 25px auto 0;
 }
 
 .footer-img {

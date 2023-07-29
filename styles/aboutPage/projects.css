@@ -31,14 +31,14 @@
     position: absolute;
     left: 65%;
     top: 15%;
-    z-index: 100;
+    z-index: 1;
 }
 
 .projects-1 {
     position: absolute;
     left: -40%;
     top: 15%;
-    z-index: 100;
+    z-index: 1;
 }
 
 .projects-text {
@@ -114,14 +114,14 @@
         position: relative;
         left: 0;
         top: 0;
-        z-index: 100;
+        z-index: 1;
     }
     
     .projects-1 {
         position: relative;;
         left: 0;
         top: 0;
-        z-index: 100;
+        z-index: 1;
     }
     
     .projects-text {
@@ -195,14 +195,14 @@
         position: absolute;
         left: 37%;
         top: 15%;
-        z-index: 100;
+        z-index: 1;
     }
     
     .projects-1 {
         position: absolute;
         left: -30%;
         top: 15%;
-        z-index: 100;
+        z-index: 1;
     }
     
     .projects-text {

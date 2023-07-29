@@ -62,17 +62,11 @@
     }
     
     .about-mini {
-        position: absolute;
-        top: 62%;
-        left: 48%;
-        z-index: -1;
+        display: none;
     }
     
     .about-big {
-        position: absolute;
-        top: -10%;
-        left: 65%;
-        z-index: -1;
+        display: none;
     }
 }
 

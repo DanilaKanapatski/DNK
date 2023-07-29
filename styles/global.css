@@ -67,7 +67,7 @@ body {
 
 .desc {
     color: #494B4C;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 27.5px;
     letter-spacing: 0.7px;
@@ -100,4 +100,8 @@ body {
         border-radius: 100px 0;
         background: #494B4C;
     }
+}
+
+.header-slider {
+    margin-top: 90px;
 }

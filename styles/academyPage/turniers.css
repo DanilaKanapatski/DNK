@@ -10,6 +10,7 @@
     margin-top: 107px;
     padding: 0 110px 50px 100px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 39px;
 }
@@ -29,3 +30,99 @@
     flex-direction: column;
     gap: 50px;
 } 
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+    .turniers-wrapper {
+        width: 320px;
+        height: 60px;
+    }
+    
+    .turniers-images {
+        margin-top: 30px;
+        padding: 0 30px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+
+    }
+    
+    .turniers-images-1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    } 
+
+    /* .turniers-images-1 img {
+        width: 100%;
+    } */
+    
+    .turniers-images-2 {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    
+    .turniers-images-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+
+    .none {
+        display: none;
+    }
+/* 
+    .turniers-images-3 img {
+        width: 100%;
+    } */
+/* 
+    .turniers-images-2 img {
+        width: 100%;
+    } */
+}
+
+@media (min-width: 769px) and (max-width: 1359px) {
+    .turniers {
+        background: rgba(235, 235, 235, 0.68);
+    }
+    
+    .turniers-wrapper {
+        width: 650px;
+    }
+    
+    .turniers-images {
+        margin-top: 50px;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+    }
+    
+    .turniers-images-1 {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    
+    .turniers-images-2 {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    
+    .turniers-images-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+}

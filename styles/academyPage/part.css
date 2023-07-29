@@ -1,0 +1,47 @@
+.part-wrapper {
+    margin-top: 50px;
+    position: relative;
+}
+
+.part-wrapper iframe {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 64%;
+}
+
+.part-wrapper img {
+    width: 100%;
+}
+
+.part-desc {
+    margin-top: 118px;
+    text-align: center;
+}
+
+.part-btn {
+    margin: 28px auto 150px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .part-desc {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .part-btn {
+        margin: 28px auto 50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1359px) {
+    .part-desc {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .part-btn {
+        margin: 28px auto 100px;
+    }
+}

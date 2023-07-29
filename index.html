@@ -27,50 +27,62 @@
 <body>
 
     <header class="header">
-        <div class="header-wrapper">
-            <img src="images/header-logo.png" alt="logo">
-            <nav>
-                <ul class="header-list">
-                    <li><a href="index.html">О нас</a></li>
-                    <li><a href="pages/academy.html">Академия</a></li>
-                    <li>Проекты</li>
-                    <li><a href="pages/news.html">Новости</a></li>
-                    <li><a href="pages/contacts.html">Контакты</a></li>
-                </ul>
-            </nav>
-            <a class="tel" href="tel:+375296167676">+375 29 616 76 76</a>
-            <a href="https://www.instagram.com/danila.knptski/"><img src="images/icons/inst.svg" alt="instagram"></a>
+        <div class="header__container">
+            <a class="header__logo" href="/DNK/pages/academy.html">
+                <img src="./images/header-logo.png" alt="header-logo">
+            </a>
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="../index.html">О нас</a></li>
+                        <li><a class="menu__link" href="/DNK/pages/academy.html">Академия</a></li>
+                        <li>
+                            <a class="menu__link" href="#">Проекты</a>
+                            <span class="menu__arrow"></span>
+                            <ul class="menu__sub-list">
+                                <li><a class="menu__sub-link" href="http://dnk-football.by/">Наше поле </a></li>
+                                <li><a class="menu__sub-link" href="http://dnk-nation.by/futbol-dla-vseh">Футбол для
+                                        всех</a></li>
+                                <li><a class="menu__sub-link" href="http://dnk-nation.by/footbolnyi-zabeg">Футбольный
+                                        забег </a></li>
+                                <li><a class="menu__sub-link" href="#">Рождественский турнир</a></li>
+                                <li><a class="menu__sub-link" href="https://dnk-chess.by/">Шахматы</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="menu__link" href="/DNK/pages/news.html">Новости</a></li>
+                        <li><a class="menu__link" href="/DNK/pages/contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
+    </header>
+    <section class="header-slider">
         <div class="image-slider swiper">
-            <!-- Additional required wrapper -->
+
             <div class="image-slider__wrapper swiper-wrapper">
-                <!-- Slides -->
+
                 <div class="image-slider__slide swiper-slide">
                     <div class="image-slider__image">
-                    <div class="swiper-slide__info">
-                        <h2 class="swiper-slide__info-title">Футбольная академия ДНК Нации ждет тебя!</h2>
-                        <p class="swiper-slide__info-desc">Приходи на открытую тренировку и попробуй свои силы</p>
-                        <button class="swiper-slide__info-btn">Подробнее</button>
+                        <div class="swiper-slide__info">
+                            <h2 class="swiper-slide__info-title">Футбольная академия ДНК Нации ждет тебя!</h2>
+                            <p class="swiper-slide__info-desc">Приходи на открытую тренировку и попробуй свои силы</p>
+                            <a href="/DNK/pages/academy.html" class="swiper-slide__info-btn">Подробнее</a>
+                        </div>
+                        <img src="images/swiper-1.jpg" alt="">
                     </div>
-                    <img src="images/swiper-1.jpg" alt=""></div>
                 </div>
                 <div class="image-slider__slide swiper-slide">
                     <div class="image-slider__image">
-                    <div class="swiper-slide__info">
-                        <h2 class="swiper-slide__info-title">Футбольная академия ДНК Нации ждет тебя!</h2>
-                        <p class="swiper-slide__info-desc">Приходи на открытую тренировку и попробуй свои силы</p>
-                        <button class="swiper-slide__info-btn">Подробнее</button>
+                        <div class="swiper-slide__info">
+                            <h2 class="swiper-slide__info-title">Узнай про активную и насыщенную жизнь Академии</h2>
+                            <p class="swiper-slide__info-desc">Стань частью большой футбольной семьи!</p>
+                            <a href="/DNK/pages/academy.html" class="swiper-slide__info-btn">Подробнее</a>
+                        </div>
+                        <img src="images/swiper-1.jpg" alt="">
                     </div>
-                    <img src="images/swiper-1.jpg" alt=""></div>
-                </div>
-                <div class="image-slider__slide swiper-slide">
-                    <div class="image-slider__image">
-                    <div class="swiper-slide__info">
-                        <h2 class="swiper-slide__info-title">Футбольная академия ДНК Нации ждет тебя!</h2>
-                        <p class="swiper-slide__info-desc">Приходи на открытую тренировку и попробуй свои силы</p>
-                        <button class="swiper-slide__info-btn">Подробнее</button>
-                    </div>
-                    <img src="images/swiper-1.jpg" alt=""></div>
                 </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -78,7 +90,7 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script src="js/swiperFirstPage.js"></script>
-    </header>
+    </section>
     <section class="advantages">
         <div class="title-wrapper">
             <h2 class="advantages-title title">Почему нас выбирают?</h2>
@@ -163,12 +175,13 @@
         </ul>
     </section>
     <section class="about">
-        <img class="about-mini" src="images/icons/mini-star.svg" alt="">
-        <img class="about-big" src="images/icons/big-star.svg" alt="">
+
         <div class="title-wrapper">
             <h2 class="about-title title">ДНК Нации</h2>
         </div>
         <div class="about-wrapper">
+            <img class="about-mini" src="images/icons/mini-star.svg" alt="">
+            <img class="about-big" src="images/icons/big-star.svg" alt="">
             <div class="about-text">
                 <p>
                     Мы хотим, чтобы в Беларуси была качественная база физкультурного обучения для самых маленьких, для
@@ -204,7 +217,7 @@
                         варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.
                     </p>
                     <p class="text">Шахматы – это модель жизни.</p>
-                    <a class="projects-text__link link" href="#">Подробнее</a>
+                    <a class="projects-text__link link" href="./pages/academy.html">Подробнее</a>
                 </div>
                 <div class="projects-images">
                     <img class="hide" src="images/projects-1.jpg" alt="">
@@ -222,7 +235,7 @@
                         варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.
                     </p>
                     <p class="text">Шахматы – это модель жизни.</p>
-                    <a class="projects-text__link link" href="#">Подробнее</a>
+                    <a class="projects-text__link link" href="http://dnk-football.by/">Подробнее</a>
                 </div>
             </div>
             <div class="projects-description__block-1">
@@ -234,7 +247,7 @@
                         варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.
                     </p>
                     <p class="text">Шахматы – это модель жизни.</p>
-                    <a class="projects-text__link link" href="#">Подробнее</a>
+                    <a class="projects-text__link link" href="https://dnk-chess.by/">Подробнее</a>
                 </div>
                 <div class="projects-images">
                     <img class="hide" src="images/projects-5.jpg" alt="">
@@ -252,7 +265,7 @@
                         варианты.делать выбор. принимать решения, нести ответственность.Постигаем стратегию и тактику.
                     </p>
                     <p class="text">Шахматы – это модель жизни.</p>
-                    <a class="projects-text__link link" href="#">Подробнее</a>
+                    <a class="projects-text__link link" href="http://dnk-nation.by/futbol-dla-vseh">Подробнее</a>
                 </div>
             </div>
         </div>
@@ -365,7 +378,7 @@
                     на каком-либо материальном </p>
             </li>
         </ul>
-        <a href="#" class="activeLife-link link">Больше новостей</a>
+        <a href="./pages/news.html" class="activeLife-link link">Больше новостей</a>
     </section>
     <section class="contacts">
         <img class="contacts-big" src="images/icons/big-star.svg" alt="">
@@ -376,55 +389,66 @@
             <div class="contacts-content">
                 <p>ООО «ДНК Нации»</p>
 
-                <p>
-                    УНП 193543702
-                    220005, г.Минск, пр-т Независимости 35-3
+                <div class="contacts-adress">
+                    <p>УНП 193543702</p>
+                    <p>220005, г.Минск, пр-т Независимости 35-3</p>
+                </div>
+                <div>
+                    <p><a class="contacts-requisites__link" href="tel:+375 29 616-76-76">+375 29 616-76-76</a></p>
+                    <p><a class="contacts-requisites__link" href="tel:+375 29 521-76-76">+375 29 521-76-76</a></p>
+                    <p><a class="contacts-requisites__link" href="tel:+375 17 393-68-11">+375 17 393-68-11</a></p>
+                </div>
+                <p><a class="contacts-requisites__link" href="mailto:dnknation.by@gmail.com">dnknation.by@gmail.com</a>
                 </p>
-
-                <p>
-                    +375 29 616-76-76
-                    +375 29 521-76-76
-                    +375 17 393-68-11
-                </p>
-
-                <p>dnknation.by@gmail.com</p>
-                <a class="contacts-content__link link" href="#">Подробнее</a>
+                <a class="contacts-content__link link" href="./pages/contacts.html">Подробнее</a>
             </div>
-
-            <iframe class="hide"
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3A367e653623deb127f77fef96b96131113038ef31e78b0b1a073032bc90ac327a&amp;source=constructor"
-                width="500" height="500" frameborder="0"></iframe>
+            <div class="map"><iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A27073a578ce6a00e80b9878823da29d96584a2b4edda1cd5f8793d74da243d6f&amp;source=constructor"
+                width="100%" height="600" frameborder="0"></iframe></div>
+            </div>
         </div>
+
+        
         <img class="contacts-mini" src="images/icons/mini-star.svg" alt="">
     </section>
     <footer class="footer">
         <div class="footer-wrapper">
-            <img src="images/icons/footer.svg" alt="">
+            <img src="./images/icons/footer.svg" alt="">
             <ul class="footer-list">
                 <li class="footer-list__item">
-                    <p>О нас</p>
-                    <p>Академия</p>
-                    <p>Новости</p>
-                    <p>Контакты</p>
+                    <p><a class="footer-list__item-link" href="./index.html">О нас</a></p>
+                    <p><a class="footer-list__item-link" href="./pages/academy.html">Академия</a></p>
+                    <p><a class="footer-list__item-link" href="./pages/news.html">Новости</a></p>
+                    <p><a class="footer-list__item-link" href="./pages/contacts.html">Контакты</a></p>
                 </li>
                 <li class="footer-list__item">
                     <p>Бренды</p>
-                    <p>Сан-Серова</p>
-                    <p>Шахматы</p>
-                    <p>ДНК-IN</p>
+                    <p><a class="footer-list__item-link" href="http://dnk-football.by/">Сан-Серова</a></p>
+                    <p><a class="footer-list__item-link" href="https://dnk-chess.by/">Шахматы</a></p>
+                    <p><a class="footer-list__item-link" href="#">ДНК-IN</a></p>
                 </li>
                 <li class="footer-list__item">
                     <p>Проекты</p>
-                    <p>Большой марафон</p>
-                    <p>Футбольный забег</p>
-                    <p>Рождественский турнир</p>
+                    <p><a class="footer-list__item-link" href="#">Большой марафон</a></p>
+                    <p><a class="footer-list__item-link" href="http://dnk-nation.by/footbolnyi-zabeg">Футбольный
+                            забег</a></p>
+                    <p><a class="footer-list__item-link" href="#">Рождественский турнир</a></p>
                 </li>
             </ul>
         </div>
-        <a class="footer-img" href="https://www.instagram.com/danila.knptski/"><img src="images/icons/inst.svg"
-                alt="instagram"></a>
+        <div class="footer-links">
+            <a class="footer-img" href="https://www.instagram.com/dnk_football/"><img src="./images/icons/inst.svg"
+                    alt="instagram"></a>
+            <a class="footer-img" href="https://www.facebook.com/minskfsm/
+            "><img src="./images/icons/facebook.svg" alt="instagram"></a>
+            <a class="footer-img" href="https://m.vk.com/dnknation"><img src="./images/icons/vk.svg"
+                    alt="instagram"></a>
+            <a class="footer-img" href=" https://m.vk.com/dnknation"><img src="./images/icons/tiktok.svg"
+                    alt="instagram"></a>
+        </div>
         <h3 class="footer-text">ДНК Нации 2023</h3>
     </footer>
+    <script src="./js/header.js"></script>
 </body>
 
 </html>

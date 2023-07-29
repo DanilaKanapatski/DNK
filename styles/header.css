@@ -2,10 +2,6 @@ body._lock {
     overflow: hidden;
 }
 
-.ba {
-    padding: 100px;
-}
-
 header {
     position: fixed;
     top: 0;
