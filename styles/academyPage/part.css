@@ -16,12 +16,12 @@
 }
 
 .part-desc {
-    margin-top: 118px;
+    margin-top: 58px;
     text-align: center;
 }
 
 .part-btn {
-    margin: 28px auto 150px;
+    margin: 28px auto 100px;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

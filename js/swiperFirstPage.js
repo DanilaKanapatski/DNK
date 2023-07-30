@@ -1,5 +1,5 @@
 new Swiper('.image-slider', {
-    speed: 600,
+    speed: 700,
     spaceBetween: 100,
     navigation: {
         nextEl: '.swiper-button-next',
@@ -12,7 +12,7 @@ new Swiper('.image-slider', {
     autoHeight: true,
     loop: true,
     autoplay: {
-        delay: 2000,
+        delay: 3000,
         disableOnInteraction: false,
     }
 });

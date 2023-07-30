@@ -1,5 +1,5 @@
 .branches {
-    margin-top: 271px;
+    margin-top: 71px;
 }
 
 .branches-wrapper {
@@ -17,7 +17,7 @@ input {
     display: flex;
     gap: 126px;
     color: #272727;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.7px;
 }

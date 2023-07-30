@@ -1,6 +1,6 @@
 .principles {
     margin-top: 96px;
-    padding-bottom: 74px;
+    padding-bottom: 44px;
 }
 
 .principles-wrapper {
@@ -31,7 +31,7 @@
 
 .principles-text__title {
     color: #272727;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 31.5px;
     letter-spacing: 0.7px;
@@ -39,7 +39,7 @@
 
 .principles-text__desc {
     color: #272727;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.7px;
@@ -60,9 +60,9 @@
 
 .principles-desc {
     text-align: center;
-    margin-top: 110px;
+    margin-top: 0px;
     color: #494B4C;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 27.5px;
     letter-spacing: 0.7px;
@@ -74,6 +74,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+    .title {
+        font-size: 16px;
+        padding: 9px 30px;
+    }
+
     .principles {
         margin-top: 50px;
         padding-bottom: 34px;
@@ -81,7 +86,7 @@
     
     .principles-wrapper {
         width: 320px;
-        height: 50px;
+        height: 40px;
         border-radius: 100px 0;
         background: #494B4C;
     }

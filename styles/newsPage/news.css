@@ -4,7 +4,7 @@
 
 .news-list {
     display: flex;
-    gap: 93px 0px;
+    gap: 93px 20px;
     padding: 0 92px 0 106px;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -39,7 +39,7 @@
 
 .news-link {
     display: block;
-    margin: 130px auto 121px;
+    margin: 70px auto 71px;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@
 
     .news-list {
         display: flex;
-        gap: 40px 40px;
+        gap: 40px 30px;
         padding: 0 30px;
         flex-wrap: wrap;
         justify-content: center;
@@ -115,7 +115,7 @@
 
     .news-list {
         display: flex;
-        gap: 93px 40px;
+        gap: 73px 40px;
         padding: 0 50px;
         flex-wrap: wrap;
         justify-content: center;

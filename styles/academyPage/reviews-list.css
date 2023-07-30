@@ -1,10 +1,11 @@
 .reviews {
-    margin-top: 209px;
+    margin-top: 79px;
 }
 
 .reviews-list {
-    margin-top: 112px;
+    margin-top: 72px;
     display: flex;
+    justify-content: center;
     gap: 40px;
     padding: 0 104px 0 94px;
     flex-wrap: wrap;
@@ -26,7 +27,7 @@
 }
 
 .second {
-    margin-top: 99px;
+    margin-top: 59px;
 }
 
 .sec {
@@ -39,5 +40,99 @@
 }
 
 .reviews-btn {
-    margin: 28px auto 80px;
+    margin: 28px auto 0px;
+}
+
+@media (min-width: 769px) and (max-width: 1359px) {
+    .reviews {
+        margin-top: 59px;
+    }
+    
+    .reviews-list {
+        margin-top: 52px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 0 54px 0 54px;
+        flex-wrap: wrap;
+    }
+    
+    .reviews-list__image-wrapper {
+        position: relative;
+    }
+    
+    .reviews-list__image-back {
+        position: absolute;
+        top: -13px;
+        left: 12px;
+        z-index: -1;
+        width: 262px;
+        height: 358px;
+        border-radius: 5px;
+        background: #EB6932;
+    }
+    
+    .second {
+        margin-top: 59px;
+    }
+    
+    .sec {
+        background: #3B3E42;
+    }
+    
+    .reviews-desc {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .reviews-btn {
+        margin: 28px auto 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .reviews {
+        margin-top: 39px;
+    }
+    
+    .reviews-list {
+        margin-top: 52px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 34px 0 34px;
+        flex-wrap: wrap;
+    }
+    
+    .reviews-list__image-wrapper {
+        position: relative;
+    }
+    
+    .reviews-list__image-back {
+        position: absolute;
+        top: -13px;
+        left: 12px;
+        z-index: -1;
+        width: 262px;
+        height: 358px;
+        border-radius: 5px;
+        background: #EB6932;
+    }
+    
+    .second {
+        margin-top: 39px;
+    }
+    
+    .sec {
+        background: #3B3E42;
+    }
+    
+    .reviews-desc {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .reviews-btn {
+        margin: 28px auto 0px;
+    }
 }
