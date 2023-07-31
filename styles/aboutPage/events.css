@@ -37,33 +37,40 @@
 
     .events-wrapper {
         width: 320px;
-        height: 60px;
+        height: 40px;
     }
 
-    .title {
-        padding: 9px 30px 9px 45px;
+    .events-title {
+        padding: 9px 10px 9px 15px;
+        font-size: 15px;
     }
 
     .events-list {
-        margin-top: 50px;
-        padding: 0 30px;
+        margin-top: 30px;
+        padding: 0 15px;
         display: flex;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 15px;
         align-items: center;
         justify-content: center;
     }
 
+    .events-list img {
+        width: 43%;
+        height: 43%;
+    }
+
     .events-list__block-1 {
         display: flex;
-        /* flex-direction: column; */
-        gap: 50px;
+        justify-content: center;
+        flex-direction: row;
+        gap: 15px;
         flex-wrap: wrap;
     }
 
     .events-list__block-2 {
         display: flex;
-        gap: 50px;
+        gap:15px;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;

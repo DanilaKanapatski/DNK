@@ -85,7 +85,7 @@
         margin-top: 50px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 15px;
         padding: 0 30px;
         
     }
@@ -110,14 +110,12 @@
     }
     
     .role-content__text-big {
-        position: absolute;
-        right: -20%;
-        top: -50%;
-        z-index: -1;
+        display: none;
     }
     
     .role-content__text-1 {
         max-width: 510px;
+        text-align: center;
     }
     
     .role-content__text-2 {

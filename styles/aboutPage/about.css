@@ -32,7 +32,7 @@
 .about-big {
     position: absolute;
     top: -10%;
-    left: 65%;
+    left: 62%;
     z-index: -1;
 }
 
@@ -46,12 +46,13 @@
         margin-top: 50px;
         padding: 0 30px;
         display: flex;
-        flex-direction: column;
-        gap: 50px;
+        flex-direction: column-reverse;
+        gap: 30px;
     }
     
     .about-text {
         display: flex;
+        text-align: justify;
         flex-direction: column;
         gap: 20px;
         color: #272727;
@@ -62,7 +63,11 @@
     }
     
     .about-mini {
-        display: none;
+        position: absolute;
+        
+        top: 50%;
+        left: 17%;
+        z-index: -1;
     }
     
     .about-big {
@@ -106,8 +111,8 @@
     
     .about-big {
         position: absolute;
-        top: -10%;
-        left: 65%;
+        top: 40%;
+        left: 25%;
         z-index: -1;
     }
 }

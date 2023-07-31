@@ -1,6 +1,6 @@
 .contacts {
     position: relative;
-    margin-top: 90px;
+    margin-top:70px;
 }
 
 .contacts-big {
@@ -71,7 +71,7 @@ h3.stadium {
 .map {
     height: 100%;
     width: 100%;
-    max-width: 600px;
+   max-width: 600px;
 }
 
 iframe {
@@ -79,7 +79,21 @@ iframe {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+.contacts {
+    margin-bottom: 30px;
+}
 
+.map {
+    width: 100%;
+}
+
+iframe {
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+width: 100%;
+    display: flex;
+}
     .contacts-wrapper {
         display: block;
     }
@@ -106,9 +120,9 @@ iframe {
         flex-direction: column;
     }
 
-    .map {
+    /* .map {
         display: none;
-    }
+    } */
 
     .contacts-branches {
         padding-left: 0;
@@ -138,7 +152,7 @@ iframe {
     .contacts-branches {
         gap: 30px;
         padding-left: 50px;
-
+        justify-content: center;
     }
 
     .contacts-wrapper {
@@ -152,7 +166,7 @@ iframe {
 }
 
 @media (min-width: 769px) and (max-width: 900px) {
-    .map {
+    /* .map {
         display: none;
-    }
+    } */
 }
