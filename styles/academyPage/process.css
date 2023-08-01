@@ -60,6 +60,10 @@
     gap: 35px;
 }
 
+.mob {
+    display: none;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     .process {
         margin-top: 30px;
@@ -106,18 +110,22 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 30px;
-        padding: 0 30px 30px 30px;
+        gap: 15px;
+        padding: 0 15px;
     }
 
     .process-images img{
-        width: 100%;
+        width: 44%;
+        height: 100%;
     }
     
-    .process-images-1 {
+
+    .process-images-1 img{
         display: flex;
         flex-direction: column;
         gap: 35px;
+        /* width: 40%;
+        height: 40%; */
     }
     
     .process-images-2 {
@@ -130,6 +138,10 @@
         display: flex;
         flex-direction: column;
         gap: 35px;
+    }
+
+    .descktop {
+        display: none;
     }
 }
 
@@ -197,5 +209,8 @@
         display: none;
         flex-direction: column;
         gap: 30px;
+    }
+    .mob {
+        display: none;
     }
 }

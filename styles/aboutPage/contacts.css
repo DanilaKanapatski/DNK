@@ -13,8 +13,8 @@
 .contacts-mini {
     position: absolute;
     z-index: -1;
-    right: 35%;
-    bottom: 15%;
+    right: 39%;
+    bottom: 5%;
 }
 
 .contacts-wrapper {
@@ -22,7 +22,7 @@
     gap: 30px;
     margin-top: 100px;
     justify-content: space-between;
-    padding: 0 110px 164px 102px;
+    padding: 0 110px 104px 102px;
 }
 
 .contacts-content {

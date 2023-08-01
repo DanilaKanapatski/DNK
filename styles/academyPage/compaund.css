@@ -37,6 +37,21 @@
     letter-spacing: 0.6px;
 }
 
+.compaund-list__item-btn {
+    display: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    border-radius: 10px;
+    background: #FE5000;
+    padding: 8px 12px 10px;
+    border-width: 0;
+    display: block;
+    margin: 20px auto 0;
+}
+
 .compaund-desc {
     text-align: center;
     margin-top: 85px;
@@ -79,6 +94,15 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+    .compaund-list__wrapper {
+        display: none;
+    }
+
+    ._choose .compaund-list__wrapper{
+        display: block;
+    }
+
+
     .compaund {
         position: relative;
         margin-top: 30px;
@@ -161,6 +185,10 @@
 }
 
 @media (min-width: 769px) and (max-width: 1359px) {
+    .compaund-list__item-btn {
+        display: none;
+    }
+
     .compaund-list__item {
         max-width: 320px;
         text-align: center;

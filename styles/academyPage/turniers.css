@@ -45,14 +45,21 @@
     
     .turniers-images {
         margin-top: 30px;
-        padding: 0 30px 50px;
+        padding: 0 15px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 15px;
         justify-content: center;
-
     }
     
+    .turniers-images-2 img {
+        height: 43%;
+        width: 43%;
+    }
+    .turniers-images-3 img{
+
+        width: 43%;
+    }
     .turniers-images-1 {
         display: flex;
         flex-wrap: wrap;
@@ -66,16 +73,17 @@
     
     .turniers-images-2 {
         display: flex;
-        gap: 50px;
+        gap: 15px;
         flex-wrap: wrap;
         justify-content: center;
     } 
     
     .turniers-images-3 {
         display: flex;
-        flex-direction: column;
-        gap: 50px;
+        flex-direction: row;
+        gap: 15px;
         flex-wrap: wrap;
+      
         justify-content: center;
     } 
 
