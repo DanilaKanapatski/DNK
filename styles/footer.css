@@ -7,8 +7,9 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 34px 30px 0 30px;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .footer-list {
@@ -42,6 +43,13 @@
     text-align: center;
     padding-bottom: 53px;
     margin-top: 100px;
+}
+
+.footer-list__item {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-list__item-link {

@@ -1,19 +1,20 @@
 .principles {
     margin-top: 96px;
-    padding-bottom: 44px;
+    padding-bottom: 10px;
 }
 
 .principles-wrapper {
-    width: 555px;
+    width: 500px;
     height: 50px;
     border-radius: 100px 0;
     background: #494B4C;
 }
 
 .principles-list {
-    margin-top: 92px;
+    margin-top: 62px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 70px;
     padding: 0 67px 64px;
 }
@@ -73,9 +74,11 @@
     
 }
 
-.mob {
+.nat {
     display: none;
 }
+
+
 
 @media (min-width: 320px) and (max-width: 768px) {
     .title {
@@ -162,10 +165,11 @@
         margin: 27px auto 0;
         
     }
-
-    .descktop {
-        display: none;
-    }
+.qiu {
+    display: none;
+}
+   
+    
 }
 
 @media (min-width: 769px) and (max-width: 1359px) {
@@ -175,7 +179,7 @@
     }
     
     .principles-wrapper {
-        width: 555px;
+        width: 500px;
         height: 50px;
         border-radius: 100px 0;
         background: #494B4C;
@@ -246,8 +250,9 @@
         margin: 27px auto 0;
         
     }
-
-    .descktop {
+    
+    .qiu {
         display: none;
     }
+    
 }

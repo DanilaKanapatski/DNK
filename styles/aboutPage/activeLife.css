@@ -1,5 +1,5 @@
 .activeLife {
-    margin-top: 142px;
+    margin-top: 62px;
 }
 
 .activeLife-list {
@@ -7,6 +7,7 @@
     display: flex;
     gap: 40px;
     padding: 0 92px 0 106px;
+    justify-content: center;
 }
 
 .activeLife-list__image-wrapper {

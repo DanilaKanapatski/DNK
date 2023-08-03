@@ -1,4 +1,6 @@
-.quiestions {}
+.quiestions {
+    margin-top: 50px;
+}
 
 .quiestions-desc {
     color: #000;
@@ -12,7 +14,7 @@
     margin-top: 55px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 70px;
     padding: 0 85px;
 }
@@ -116,7 +118,7 @@
         margin-top: 50px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         gap: 30px;
         padding: 0 30px;
     }

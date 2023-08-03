@@ -4,13 +4,13 @@
 
 .partners-list {
     text-align: center;
-    margin-top: 105px;
+    margin-top: 65px;
     display: flex;
     gap: 25px 148px;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 135px 0 157px;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: flex-end;
 }
 
 .partners-list__item-text {

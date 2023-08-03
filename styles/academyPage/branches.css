@@ -46,7 +46,7 @@
 }
 
 h3.stadium {
-    margin-top: 25.5px;
+    margin-top: 78.5px;
     margin-bottom: 0;
 }
 
@@ -150,7 +150,7 @@ form :last-child {
         margin-bottom: 30px;
         justify-content: space-around;
         gap: 30px;
-        align-items: center;
+        align-items: baseline;
         margin-right: 0;
     }
 
