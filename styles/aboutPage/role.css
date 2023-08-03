@@ -46,7 +46,7 @@
 
 .role-content__text-2 {
     max-width: 428px;
-   padding-left: 66px; 
+    padding-left: 66px;
 }
 
 .role-content__text-wrapper {
@@ -73,7 +73,7 @@
     .role {
         margin-top: 50px;
     }
-    
+
     .role-wrapper {
         width: 320px;
     }
@@ -81,16 +81,16 @@
     .title {
         padding: 9px 35px;
     }
-    
+
     .role-content {
         margin-top: 50px;
         display: flex;
         flex-direction: column;
         gap: 15px;
         padding: 0 30px;
-        
+
     }
-    
+
     .role-content__text {
         position: relative;
         color: #272727;
@@ -102,40 +102,40 @@
         flex-direction: column;
         gap: 30px;
     }
-    
+
     .role-content__text-mini {
         position: absolute;
         z-index: -1;
         bottom: 0;
         left: -5%;
     }
-    
+
     .role-content__text-big {
         display: none;
     }
-    
+
     .role-content__text-1 {
         max-width: 510px;
         text-align: center;
     }
-    
+
     .role-content__text-2 {
         max-width: 428px;
-       padding-left: 30px; 
+        padding-left: 30px;
     }
-    
+
     .role-content__text-wrapper {
         position: relative;
-        padding: 30px ;
+        padding: 30px;
     }
-    
+
     .role-content__text-wrapper ::before {
         position: absolute;
         content: url(/DNK/images/icons/kav.svg);
         top: 0;
         left: 0;
     }
-    
+
     .role-content__text-wrapper ::after {
         position: absolute;
         content: url(/DNK/images/icons/kav.svg);
@@ -152,11 +152,11 @@
     .role-title {
         padding: 9px 30px 9px 70px;
     }
-    
+
     .role-wrapper {
         width: 450px;
     }
-    
+
     .role-content {
         margin-top: 70px;
         display: flex;
@@ -165,7 +165,7 @@
         gap: 85px;
         padding: 0 50px 43px 58px;
     }
-    
+
     .role-content__text {
         position: relative;
         color: #272727;
@@ -177,42 +177,42 @@
         flex-direction: column;
         gap: 80px;
     }
-    
+
     .role-content__text-mini {
         position: absolute;
         z-index: -1;
         bottom: 0;
         left: -5%;
     }
-    
+
     .role-content__text-big {
         position: absolute;
         right: -20%;
         top: -50%;
         z-index: -1;
     }
-    
+
     .role-content__text-1 {
         max-width: 510px;
     }
-    
+
     .role-content__text-2 {
         max-width: 428px;
-       padding-left: 66px; 
+        padding-left: 66px;
     }
-    
+
     .role-content__text-wrapper {
         position: relative;
         padding: 65px 0 52px 66px;
     }
-    
+
     .role-content__text-wrapper ::before {
         position: absolute;
         content: url(/DNK/images/icons/kav.svg);
         top: 26px;
         left: 0;
     }
-    
+
     .role-content__text-wrapper ::after {
         position: absolute;
         content: url(/DNK/images/icons/kav.svg);

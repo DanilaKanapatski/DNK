@@ -24,7 +24,7 @@
     .partners {
         margin-top: 50px;
     }
-    
+
     .partners-list {
         text-align: center;
         margin-top: 50px;
@@ -35,7 +35,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .partners-list__item-text {
         max-width: 460px;
         margin-top: 50px;
@@ -52,7 +52,7 @@
     .partners {
         margin-top: 70px;
     }
-    
+
     .partners-list {
         text-align: center;
         margin-top: 70px;
@@ -63,7 +63,7 @@
         flex-wrap: wrap;
         align-items: baseline;
     }
-    
+
     .partners-list__item-text {
         max-width: 460px;
         margin-top: 70px;

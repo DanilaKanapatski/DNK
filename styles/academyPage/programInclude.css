@@ -27,7 +27,7 @@
     .programInclude {
         margin-top: 30px;
     }
-    
+
     .programInclude-list {
         margin-top: 30px;
         padding: 15px;
@@ -42,7 +42,7 @@
     .programInclude-list__item {
         width: 47%;
     }
-    
+
     .programInclude-list__item img {
         width: 70px;
         height: 70px;
@@ -63,7 +63,7 @@
     .programInclude {
         margin-top: 50px;
     }
-    
+
     .programInclude-list {
         margin-top: 50px;
         padding: 0 50px 53px 50px;
@@ -78,7 +78,7 @@
     .programInclude-list__item {
         width: 30%;
     }
-    
+
     .programInclude-list__item-title {
         margin: 30px auto 0;
         color: #272727;

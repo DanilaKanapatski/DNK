@@ -1,6 +1,6 @@
 .contacts {
     position: relative;
-    margin-top:70px;
+    margin-top: 70px;
 }
 
 .contacts-big {
@@ -71,7 +71,7 @@ h3.stadium {
 .map {
     height: 100%;
     width: 100%;
-   max-width: 600px;
+    max-width: 600px;
 }
 
 iframe {
@@ -79,21 +79,22 @@ iframe {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-.contacts {
-    margin-bottom: 30px;
-}
+    .contacts {
+        margin-bottom: 30px;
+    }
 
-.map {
-    width: 100%;
-}
+    .map {
+        width: 100%;
+    }
 
-iframe {
-    max-height: 300px;
-    max-width: 300px;
-    margin: 0 auto;
-width: 100%;
-    display: flex;
-}
+    iframe {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+    }
+
     .contacts-wrapper {
         display: block;
     }
